@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Prática em Grupo</title>
 </head>
 <body>
-    <script src="script.js"></script>
+  <h2>Menu de Opções</h2>
+  <button onclick="calcularFatorial()">A - Calcular Fatorial</button>
+  <button onclick="mostrarTabuada()">B - Mostrar Tabuada</button>
+  <button onclick="verificarPrimo()">C - Verificar se é Primo</button>
+  <button onclick="limpar()">Limpar</button>
+
+  <div id="saida" style="margin-top:20px; font-family: monospace;"></div>
+
+  <!-- Importando o script separado -->
+  <script src="script.js"></script>
 </body>
 </html>
