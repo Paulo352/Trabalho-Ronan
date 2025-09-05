@@ -3,16 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Prática em Grupo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Menu de Opções</h2>
-  <button onclick="calcularFatorial()">A - Calcular Fatorial</button>
-  <button onclick="mostrarTabuada()">B - Mostrar Tabuada</button>
-  <button onclick="verificarPrimo()">C - Verificar se é Primo</button>
-  <button onclick="limpar()">Limpar</button>
-
-  <div id="saida" style="margin-top:20px; font-family: monospace;"></div>
-
+  <div class="container">
+    <h1>Menu de Opções</h1>
+    <div class="buttons">
+      <button onclick="calcularFatorial()">A - Calcular Fatorial</button>
+      <button onclick="mostrarTabuada()">B - Mostrar Tabuada</button>
+      <button onclick="verificarPrimo()">C - Verificar se é Primo</button>
+      <button class="clear" onclick="limpar()">Limpar</button>
+    </div>
+    <div id="saida" class="output"></div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
